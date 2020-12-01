@@ -5,7 +5,7 @@
 <svg :width="innerWidth" :height="innerHeight" :transform="`translate(${margin.left}, 0)`"
  viewBox="-70 -60 1060 746" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <g id="Transition-Risks-Modules" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-   <a href="https://climatescenarios.org/enduse/">
+   <a target="_blank" href="https://dev.climatescenarios.org/end-use/">
      <g id="Enduse" transform="translate(548.000000, 155.000000)">
          <rect id="Hover_Area_E" x="26" y="0" width="267" height="420"></rect>
          <polyline id="Line-2" stroke="#36378A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="73 60 0 190 43.4529411 190"></polyline>
@@ -90,7 +90,7 @@
          <polyline id="Shape" stroke="#36378A" stroke-width="4" stroke-linecap="round" transform="translate(132.000000, 259.000000) scale(-1, 1) rotate(180.000000) translate(-132.000000, -259.000000) " points="160 246 160 272 104 272"></polyline>
      </g>
     </a>
-     <a href="https://climatescenarios.org/fossil-fuels/">
+     <a target="_blank" href="https://climatescenarios.org/fossil-fuels/">
      <g id="Fossils" transform="translate(18.000000, 149.000000)">
          <rect id="Hover_Area_F" x="0" y="6" width="260" height="420"></rect>
          <circle id="Circle_Fossils" stroke="#36378A" stroke-width="4" fill="#C2B6E4" cx="186" cy="177" r="71"></circle>
@@ -152,7 +152,7 @@
          <polyline id="Line-14" stroke="#36378A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="295 101.128906 317 101.128906 257 161.5"></polyline>
      </g>
     </a>
-     <a href="https://climatescenarios.org/power-sector/">
+     <a target="_blank" href="https://climatescenarios.org/power-sector/">
      <g id="Power-Sector" transform="translate(308.000000, 155.000000)">
          <rect id="Hover_Area_PS" x="1" y="0" width="235" height="420"></rect>
          <path d="M35.5,200 C55.1061086,200 71,184.106109 71,164.5 C71,144.893891 55.1061086,129 35.5,129 C15.8938914,129 0,144.893891 0,164.5 C0,184.106109 15.8938914,200 35.5,200 Z" :id="step==2 ? 'rotate_circle' : 'circle'" stroke="#36378A" stroke-width="4" stroke-linecap="square" stroke-dasharray="12,10"></path>

@@ -11,24 +11,23 @@
         </template>
         <div slot="text" class="observer">
         <IntersectionObserver :step="0"  align="left" class="firstheight">
-          <p>Lorem ipsum Mitigation of climate change is a highly contested issue since it affects the use of fossil fuels,
-            which contributes 85% of global primary energy supply. Therefore, it is seen as the basis for economic
-            production and income and, thus, socioeconomic prosperity.
-            Their key role in the world economy makes fossil fuel deposits valuable assets at the moment.
+          <p>The transition towards a low carbon future requires large changes in the production, conversion and use of energy.
+            Such large changes impose risks to actors and investors in the sectors that are involved in these activities.
+            For example, costs may increase, cost structures will change, revenues could increase or decrease and the need
+            for investments in new equipment may go up as well. In these modules, we guide you through the main risks related
+            to the transition to a low-carbon future to the fossil fuel sector, the power sector and the end-use sectors.
           </p>
         </IntersectionObserver>
         <IntersectionObserver :step="1"  align="left">
           <div class="sticky">
             <h3 class ="module-title">1 Fossil Fuels Risk</h3>
               <p>
-                Lorem ipsum In the scenarios, this transition is driven by a carbon tax that increases the relative costs per MWh
-                of fossil fuels compared to renewables and other low-carbon technologies Mitigation of climate change
-                is a highly contested issue since it affects the use of fossil fuels,
-                which contributes 85% of global primary energy supply. Therefore, it is seen as the basis for economic
-                production and income and, thus, socioeconomic prosperity.
-                <!-- <br>
-                <br>
-                <a href   ="https://dev.climatescenarios.org/preamble/#" target="_blank" class="to-module">↗ Module 1</a> -->
+                Mitigation of climate change is a highly contested issue since it affects the use of fossil fuels, which
+                contributes 85% of global primary energy supply. Therefore, it is seen as the basis for economic production
+                and income and, thus, socioeconomic prosperity. The  key role of fossil fuels in the world economy makes fossil
+                resources valuable assets at the moment, but their value may change in the future if climate mitigation efforts
+                are serious and the energy sector successfully transitions to a low-carbon future.
+                <a class="moduleLink" href   ="https://climatescenarios.org/fossil-fuels/" target="_blank">↗ Module 1</a>
               </p>
           </div>
           <div class="spacer">
@@ -39,14 +38,12 @@
           <div class="sticky">
           <h3 class="module-title">2  Power Sector Risk</h3>
           <p>
-            Lorem ipsum in the scenarios, this transition is driven by a carbon tax that increases the relative costs per MWh
-            of fossil fuels compared to renewables and other low-carbon technologies Mitigation of climate change
-            is a highly contested issue since it affects the use of fossil fuels,
-            which contributes 85% of global primary energy supply. Therefore, it is seen as the basis for economic
-            production and income and, thus, socioeconomic prosperity.
-            <!-- <br>
-            <br>
-            <a href="https://dev.climatescenarios.org/preamble/#" target="_blank" class="to-module">↗ Module 2</a> -->
+            Large parts of our energy system and economy depend on fossil fuels and will be affected by efforts to reduce
+            CO2 emissions. The rapid development of renewable energy technology and the pricing of carbon to reduce CO2
+            emissions under mitigation scenarios, will drive a transition in the power sector towards low-carbon energy
+            technologies. The significant ramp-up of these technologies will require large investments. Hence, climate
+            policies will redirect investments and will lead to revaluation of assets. <br>
+            <a href="https://climatescenarios.org/power-sector/" target="_blank" class="moduleLink">↗ Module 2</a>
           </p>
           </div>
           <div class="spacer">
@@ -57,14 +54,11 @@
         <div class="sticky">
           <h3 class="module-title">3  Enduse Risk</h3>
           <p>
-            Lorem ipsum in the scenarios, this transition is driven by a carbon tax that increases the relative costs per MWh
-            of fossil fuels compared to renewables and other low-carbon technologies Mitigation of climate change
-            is a highly contested issue since it affects the use of fossil fuels,
-            which contributes 85% of global primary energy supply. Therefore, it is seen as the basis for economic
-            production and income and, thus, socioeconomic prosperity.
-            <!-- <br>
+            Many final energy uses in the industry, transport and buildings sectors depend on fossil fuels and will be
+            affected once fossil fuels are phased out and renewables ramped up. Options to improve energy efficiency
+            will become more competitive at higher energy prices but require increased investments.
             <br>
-            <a href="https://dev.climatescenarios.org/preamble/#" target="_blank" class="to-module">↗ Module 3</a> -->
+            <a href="https://dev.climatescenarios.org/end-use/" target="_blank" class="moduleLink">↗ Module 3</a>
           </p>
         </div>
         <div class="spacer">
@@ -73,17 +67,16 @@
         </IntersectionObserver>
         <IntersectionObserver :step="4"  align="left" class="lastheight">
           <p>
-            Lorem ipsum as a result, total revenues within the power sector (based on the MWh’s produced times the electricity
-            price) shifts from fossil utilities to low-carbon based utilities. Issue since it affects the use of
-            fossil fuels, which contributes 85% of global primary energy supply. Issue since it affects the use of
-            fossil fuels, which contributes 85% of global primary energy supply. Issue since it affects the use of
-            fossil fuels, which contributes 85% of global primary energy supply. Issue since it affects the use of
-            fossil fuels, which contributes 85% of global primary energy supply.
+            To facilitate a smooth transition towards broad and deep emission reductions, climate policies need to
+            strengthen gradually, and this revaluation and redirection will happen in a differentiated way.
+            <br> However, there is no guarantee that the transition will be smooth, and strong climate policies might be
+            imposed on short notice.
+            <br>
+            Explore the three modules on Transition Risks to find out more.
           </p>
         </IntersectionObserver>
       </div>
       </LayoutScrollytelling>
-      <!-- <SensesMeta :id="'power-sector'"/> -->
     </div>
   </div>
 </template>
@@ -173,16 +166,7 @@ export default {
     .module-title {
       // color: getColor(violet, 60);
     }
-    .to-module {
-      text-decoration: none;
-      text-align: center;
-      padding: .5rem 1rem;
-      border: 1px solid #d8d8e4;
-      border-radius: 2px;
-      pointer-events: all;
-      background: none;
-      color: black;
-      margin-top: 10px;
+
     }
     .intersection-observer {
       width: 30%;
@@ -200,6 +184,11 @@ export default {
       position: sticky;
       align-self: start;
       top: 30vh;
+      .moduleLink {
+        fill: getColor(neon, 40);
+        font-weight: normal;
+        text-decoration: none;
+        background: none;
     }
     .spacer {
     width: 30%;
