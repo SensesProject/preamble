@@ -27,7 +27,7 @@
                 and income and, thus, socioeconomic prosperity. The  key role of fossil fuels in the world economy makes fossil
                 resources valuable assets at the moment, but their value may change in the future if climate mitigation efforts
                 are serious and the energy sector successfully transitions to a low-carbon future.
-                <a class="moduleLink" href   ="https://climatescenarios.org/fossil-fuels/" target="_blank">↗ Module 1</a>
+                <a class="moduleLink" href   ="https://climatescenarios.org/fossil-fuels/" target="_blank">↗ Module 1: Fossil Fuels Risk</a>
               </p>
           </div>
           <div class="spacer">
@@ -43,7 +43,7 @@
             emissions under mitigation scenarios, will drive a transition in the power sector towards low-carbon energy
             technologies. The significant ramp-up of these technologies will require large investments. Hence, climate
             policies will redirect investments and will lead to revaluation of assets. <br>
-            <a href="https://climatescenarios.org/power-sector/" target="_blank" class="moduleLink">↗ Module 2</a>
+            <a href="https://climatescenarios.org/power-sector/" target="_blank" class="moduleLink">↗ Module 2: Power Sector Risk</a>
           </p>
           </div>
           <div class="spacer">
@@ -58,7 +58,7 @@
             affected once fossil fuels are phased out and renewables ramped up. Options to improve energy efficiency
             will become more competitive at higher energy prices but require increased investments.
             <br>
-            <a href="https://dev.climatescenarios.org/end-use/" target="_blank" class="moduleLink">↗ Module 3</a>
+            <a href="https://dev.climatescenarios.org/end-use/" target="_blank" class="moduleLink">↗ Module 3: Enduse Risk</a>
           </p>
         </div>
         <div class="spacer">
@@ -71,7 +71,6 @@
             strengthen gradually, and this revaluation and redirection will happen in a differentiated way.
             <br> However, there is no guarantee that the transition will be smooth, and strong climate policies might be
             imposed on short notice.
-            <br>
             Explore the three modules on Transition Risks to find out more.
           </p>
         </IntersectionObserver>
