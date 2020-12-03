@@ -296,9 +296,16 @@ export default {
 }
 
   svg {
+
     background-color: rgba(221,214,255,.3);
     float: right;
     position: fixed; top:0; right:0; height:100%; width:68%;
+
+    a:active, a:focus {
+      outline: 0;
+      border: none;
+      -moz-outline-style: none;
+    }
     #Fossils {
       fill: transparent;
     }

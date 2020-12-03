@@ -161,9 +161,6 @@ export default {
       position: fixed;
       top: 0;
     }
-    .module-title {
-      // color: getColor(violet, 60);
-    }
 
     }
     .intersection-observer {
@@ -187,6 +184,7 @@ export default {
         font-weight: normal;
         text-decoration: none;
         background: none;
+        outline : none;
     }
     .spacer {
     width: 30%;
