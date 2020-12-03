@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <SensesMenu :id="'power-sector'"/>
+    <SensesMenu :id="'preamble'" :minWidth="900"/>
     <div class="content" :class="mobile ? 'isMobile' : 'isDesktop'" ref="container">
-      <h1 class="header">Preamble <br>Transition Risks </h1>
+      <h1 class="header">Transition Risks <br>Preamble</h1>
       <LayoutScrollytelling>
         <template v-slot:vis="{ width, height, step }">
           <div class="vis-inner" :style="{width: `${width}px`, height: `${height}px`}">
@@ -26,7 +26,7 @@
                 contributes 85% of global primary energy supply. Therefore, it is seen as the basis for economic production
                 and income and, thus, socioeconomic prosperity. The  key role of fossil fuels in the world economy makes fossil
                 resources valuable assets at the moment, but their value may change in the future if climate mitigation efforts
-                are serious and the energy sector successfully transitions to a low-carbon future.
+                are serious and the energy sector successfully transitions to a low-carbon future. <br>
                 <a class="moduleLink" href   ="https://climatescenarios.org/fossil-fuels/" target="_blank">↗ Module 1: Fossil Fuels Risk</a>
               </p>
           </div>
@@ -42,7 +42,7 @@
             CO2 emissions. The rapid development of renewable energy technology and the pricing of carbon to reduce CO2
             emissions under mitigation scenarios, will drive a transition in the power sector towards low-carbon energy
             technologies. The significant ramp-up of these technologies will require large investments. Hence, climate
-            policies will redirect investments and will lead to revaluation of assets. <br>
+            policies will redirect investments and will lead to revaluation of assets.<br>
             <a href="https://climatescenarios.org/power-sector/" target="_blank" class="moduleLink">↗ Module 2: Power Sector Risk</a>
           </p>
           </div>
@@ -52,13 +52,12 @@
         </IntersectionObserver>
         <IntersectionObserver :step="3"  align="left">
         <div class="sticky">
-          <h3 class="module-title">3  Enduse Risk</h3>
+          <h3 class="module-title">3  End-Use Risk</h3>
           <p>
             Many final energy uses in the industry, transport and buildings sectors depend on fossil fuels and will be
             affected once fossil fuels are phased out and renewables ramped up. Options to improve energy efficiency
-            will become more competitive at higher energy prices but require increased investments.
-            <br>
-            <a href="https://dev.climatescenarios.org/end-use/" target="_blank" class="moduleLink">↗ Module 3: Enduse Risk</a>
+            will become more competitive at higher energy prices but require increased investments.<br>
+            <a href="https://climatescenarios.org/end-use/" target="_blank" class="moduleLink">↗ Module 3: End-Use Risk</a>
           </p>
         </div>
         <div class="spacer">
